@@ -353,6 +353,12 @@ span{
 marquee{
   color: rgb(0, 166, 119);
 }
+iframe{
+  width: 100vh;
+  height: 70vh;
+  border-radius: 12px;
+
+}
 
 
 @keyframes appear {
@@ -485,6 +491,12 @@ marquee{
     margin-left: 230px;
     padding: 15px;
     border-style: dashed;
+}
+iframe{
+  width: 70vh;
+  height: 50vh;
+  border-radius: 12px;
+
 }
 
 @media screen and (max-width: 470px) {
