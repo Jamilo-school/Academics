@@ -350,6 +350,9 @@ span{
   padding: 15px;
  
 }
+marquee{
+  color: rgb(0, 166, 119);
+}
 
 
 @keyframes appear {
