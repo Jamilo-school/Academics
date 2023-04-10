@@ -358,7 +358,9 @@ marquee{
 
 
 }
-
+div.links{
+  background-color: transparent;
+}
 
 
 @keyframes appear {
