@@ -30,6 +30,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+
  
 }
 
@@ -41,11 +42,38 @@ body {
 img {
   width: 100%;
 }
+.title{
+  background: linear-gradient(45deg,#86f9f4,#69164f,#2266e4,#000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sectionscontainer{
+  border: 6px solid #ffffff;
+  border-radius: 16px;
+  margin: 10px;
+ 
+  
+ 
+  
+}
+header{
+  height: 100%;
+}
+div.hamburger-menu{
+  position: fixed;
+  color: red;
+  top: 0px;
+  right: 15px;
+
+  
+
+
+}
+
 
 a {
   text-decoration: none;
 }
-
 .big-wrapper {
   position: relative;
   padding: 1.7rem 0 2rem;
@@ -65,6 +93,10 @@ a {
   margin: 0 auto;
   padding: 0 3rem;
   z-index: 10;
+  background-size: cover;
+  
+ 
+  
  
 }
 
@@ -129,6 +161,11 @@ header .container {
   text-transform: capitalize;
   transition: 0.3s;
   margin: 5px;
+  border: 4px solid #fafafa;
+
+
+
+  
 }
 
 .btn:hover {
@@ -221,9 +258,10 @@ p{
 }
 
 .person {
-  width: 123%;
+  width: 80%;
   transform: translate(15%, 25px);
   border-radius: 10px;
+
 }
 
 .toggle-btn {
@@ -375,6 +413,7 @@ div.links{
 @media screen and (max-width: 870px) {
   .hamburger-menu {
     display: flex;
+    
   }
 
   .links {
@@ -394,13 +433,17 @@ div.links{
   }
 
   .links ul {
-    flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
   }
 
   .links a {
     color: #fff;
-    margin-left: 0;
-    padding: 2rem 0;
+    margin:5px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
   }
 
   .links .btn {
