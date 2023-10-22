@@ -30,6 +30,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+
  
 
 
@@ -99,6 +100,8 @@ a {
   padding: 0 3rem;
   z-index: 10;
   background-size: cover;
+ 
+ 
   
  
   
@@ -239,6 +242,7 @@ header .container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
+
 }
 
 .big-title {
@@ -495,6 +499,7 @@ div.links{
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 2rem;
+    
   }
 
   .big-title {
