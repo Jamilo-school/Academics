@@ -2,17 +2,17 @@
 
 .light {
   --mainColor: #fff;
-  --hoverColor: #5bacdf;
+  --hoverColor: #fff;
   --backgroundColor: #fff;
   --darkOne: #312f3a;
   --darkTwo: #45424b;
-  --lightOne: #919191;
+  --lightOne: #fff;
   --lightTwo: #aaa;
 }
 
 .dark {
-  --mainColor: #64bcf4;
-  --hoverColor: #5bacdf;
+  --mainColor: #fff;
+  --hoverColor: #fff;
   --backgroundColor: #192e3a;
   --darkOne: #f3f3f3;
   --darkTwo: #fff;
@@ -50,10 +50,13 @@ img {
 }
 .sectionscontainer{
   border-radius: 16px;
+  font-family: "poppins";
   margin: 10px;
+ 
+
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   padding: 0.9rem;
-  background-image: url(./img/Background.png);
+  background-image: url(./img/pic5.webp);
  
  
   
@@ -160,17 +163,16 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 0.5rem 0.5rem;
-  background: linear-gradient(45deg,#0de5da,#5b0e43,#c2b41b,#000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  padding: 0.4rem 0.4rem;
+ color: #fff;
    font-weight: bold;
-  background-color: var(--mainColor);
-  border-radius: 16px;
+  background-color: transparent;
+  border-radius: 6px;
   text-transform: capitalize;
   transition: 0.3s;
   margin: 5px;
-  border: 6px solid #fafafa;
+  border: 2px solid #fafafa;
+  border-style: dashed;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
 
 
@@ -254,12 +256,12 @@ header .container {
 
 .text {
  
- color: black;
+ color: rgb(255, 243, 243);
   font-size: 1.1rem;
   margin: 0.9px;
   max-width: 600px;
   line-height: 2;
-  background-image: url(./img/Background.png);
+  background-image: url(./img/pic5.webp);
   border-radius: 5px;
   padding: 10px;
 }
