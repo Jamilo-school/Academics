@@ -52,8 +52,8 @@ img {
   border-radius: 16px;
   font-family: "poppins";
   margin: 10px;
- 
-
+  border: 3px solid #fafafa;
+  border-style: dashed;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   padding: 0.9rem;
   background-image: url(./img/pic5.webp);
