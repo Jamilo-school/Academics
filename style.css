@@ -46,14 +46,14 @@ img {
   width: 100%;
 }
 .title{
- color: #fff;
+ color: #b8afaf;
+ background-image: url(./img/pic5.webp);
+ padding: 5x;
 }
 .sectionscontainer{
   border-radius: 16px;
   font-family: "poppins";
   margin: 10px;
-  border: 3px solid #fafafa;
-  border-style: dashed;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   padding: 0.9rem;
   background-image: url(./img/pic5.webp);
@@ -86,7 +86,7 @@ a {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url(./img/pic5.webp);
+  background-image: url(./img/Background.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
