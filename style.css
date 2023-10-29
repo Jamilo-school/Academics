@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .light {
-  --mainColor: #fff;
+  --mainColor: #1b934b;
   --hoverColor: #fff;
   --backgroundColor: #fff;
   --darkOne: #312f3a;
@@ -51,12 +51,16 @@ img {
  padding: 5x;
 }
 .sectionscontainer{
+  background: linear-gradient(45deg,#0de5da,#5b0e43,#c2b41b,#000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+   -webkit-text-fill-color: transparent;
   border-radius: 16px;
   font-family: "poppins";
   margin: 10px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   padding: 0.9rem;
-  background-image: url(./img/pic5.webp);
+
  
  
   
@@ -86,7 +90,6 @@ a {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url(./img/Background.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
